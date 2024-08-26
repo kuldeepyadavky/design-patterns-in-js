@@ -1,4 +1,4 @@
-// Import the logMessage 3 from a common logger module
+// Import the logMessage from a common logger module
 import { logMessage } from '../common/logger.js';
 
 /**

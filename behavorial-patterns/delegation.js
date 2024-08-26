@@ -30,10 +30,12 @@ const Task = {
 // Create a new object that delegates to the Task object
 const XYZ = Object.create(Task); // XYZ inherits methods from Task
 
+logMessage(XYZ);
+
 // Add specific methods to the XYZ object
-XYZ.prepareTask = function(ID, Label) {
+XYZ.prepareTask = function(ID, label) {
   this.setID(ID); // Delegate ID setting to Task
-  this.label = Label; // Additional property specific to XYZ
+  this.label = label; // Additional property specific to XYZ
 };
 
 XYZ.outputTaskDetails = function() {
