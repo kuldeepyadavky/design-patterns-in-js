@@ -1,5 +1,3 @@
-// Mixins Example
-
 // Import the logMessage function from a common logger module
 import { logMessage } from '../common/logger.js';
 
